@@ -1,7 +1,7 @@
 from socket import *
 
 class SocketServer:
-    
+
     def initSocket():
         # definindo o host
         host = gethostname()
@@ -19,7 +19,8 @@ class SocketServer:
             con, adr = socketServer.accept() # aceitando dados do cliente
             while 1:
                 msg = con.recv(1024) # msg vinda do cliente, em parâmetros definimos o tamanho dela em bytes
-                print(msg.decode())  # como as msgs vem criptografadas usamos o decode para descriptografar
+                decodification = msg.decode() # como as msgs vem criptografadas usamos o decode para descriptografar
+                print(decodification)  
 
 
 if __name__ == "__main__": 

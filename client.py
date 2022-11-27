@@ -12,7 +12,8 @@ class SocketClient:
         # lógica para enviar msg
         while 1:
             msg = input("Digite algo: ")
-            cli.send(msg.encode()) # enviando mensagem codificada
+            condification = msg.encode()
+            cli.send(condification) # enviando mensagem codificada
 
 
 if __name__ == "__main__": 

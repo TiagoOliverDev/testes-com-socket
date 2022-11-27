@@ -16,5 +16,5 @@ class SocketClient:
 
 
 if __name__ == "__main__": 
-    cmd = SocketClient()
+    cmd = SocketClient
     cmd.client()    

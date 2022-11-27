@@ -1,7 +1,7 @@
 from socket import *
 
 class SocketServer:
-
+    
     def initSocket():
         # definindo o host
         host = gethostname()
@@ -23,5 +23,5 @@ class SocketServer:
 
 
 if __name__ == "__main__": 
-    cmd = SocketServer()
+    cmd = SocketServer
     cmd.initSocket()    

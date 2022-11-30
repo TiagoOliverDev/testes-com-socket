@@ -1,7 +1,7 @@
 from socket import *
 
 class SocketClient:
-
+    
     def client():
         host = gethostname()
         port = 55551
